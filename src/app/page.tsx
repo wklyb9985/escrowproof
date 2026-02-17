@@ -138,7 +138,10 @@ export default function Home() {
         <section className="pt-24 pb-20 text-center">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-cyan-500/10 border border-cyan-500/20 text-cyan-400 text-sm mb-8">
             <span className="w-2 h-2 rounded-full bg-cyan-400 animate-pulse" />
-            Live on Base Sepolia
+            🧪 Testnet MVP — Live on Base Sepolia
+          </div>
+          <div className="inline-block px-3 py-1 rounded-md bg-yellow-500/10 border border-yellow-500/20 text-yellow-400 text-xs mb-6">
+            Currently running on testnet. Mainnet launch coming soon.
           </div>
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight tracking-tight">
             <span className="gradient-text">Trustless Escrow</span>
@@ -148,6 +151,7 @@ export default function Home() {
           <p className="text-gray-400 text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed">
             Milestone-based USDC escrow with commit-reveal arbitration, dispute bonds,
             and on-chain reputation. Built for agents and humans alike.
+            <span className="block mt-2 text-yellow-400/80 text-base">This is an MVP on Base Sepolia testnet — no real funds are used.</span>
           </p>
           <div className="flex gap-4 justify-center flex-wrap">
             <Link
